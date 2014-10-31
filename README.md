@@ -1,6 +1,6 @@
 ---
 language: css
-tags: css, layout, positioning, float, box model
+tags: css, sprite, image, rollover
 type: lecture
 resources: 0
 ---
