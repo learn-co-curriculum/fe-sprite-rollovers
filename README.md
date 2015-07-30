@@ -1,9 +1,4 @@
----
-language: css
-tags: css, sprite, image, rollover
-type: lecture
-resources: 0
----
+
 
 ## Sprite Rollovers ~ 10min
 
