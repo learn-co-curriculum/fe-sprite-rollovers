@@ -54,6 +54,16 @@ At this point our image appears in our element. You'll notice that the default p
 Now we just need to reposition the sprite on hover,
 
 ```css
+.facebook-icon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url(css-sprite-example.png) no-repeat;
+    text-indent: 100%;
+    overflow: hidden;
+    wrap: no-wrap;
+}
+
 .facebook-icon:hover {
   background-position: 0 -100px;
 }
@@ -65,7 +75,9 @@ Here we set the `background-position` property to reposition our background imag
 
 ## Summary
 
-- ...
+- Sprites are images that contain multiple states or frames ina single image.
+- It is more efficient to load a sungle sprite once than to load a separate image for each state.
+- We can use the `background-position` property to reposition the image on hover in order to create a rollover.
 
 ## Resources
 
