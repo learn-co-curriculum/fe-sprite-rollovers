@@ -61,7 +61,7 @@ Now we just need to reposition the sprite on hover,
 
 Here we set the `background-position` property to reposition our background image wihtin out element. The first value is for horizontal shift this we set to 0. The second value is for vertical shift which we want to pull the image upward 100px so we set it to -100px. Positive numbers push the image down and to the right, negative numbers pull the image up and to the left. As mentioned the first value moves the sprite horizontally and the second value moves it vertically. Here is our finished example go ahead and hover over the rollover below,
 
-<a class="facebook-icon" href="#" onclick="return false;">Facebook</a><style>.facebook-icon{display:block;width:100px;height:100px;background:url(http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/css-sprite-example.png) no-repeat;text-indent: 100%;overflow:hidden;wrap:no-wrap;}.facebook-icon{background-position: 0 -100px;}</style>
+<a class="facebook-icon" href="#" onclick="return false;">Facebook</a><style>.facebook-icon{display:block;width:100px;height:100px;background:url(http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/css-sprite-example.png) no-repeat;text-indent:100%;overflow:hidden;wrap:no-wrap;}.facebook-icon:hover{background-position: 0 -100px;}</style>
 
 ## Summary
 
