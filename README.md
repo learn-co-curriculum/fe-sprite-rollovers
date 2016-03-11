@@ -75,12 +75,15 @@ Here we set the `background-position` property to reposition our background imag
 
 ## Summary
 
-- Sprites are images that contain multiple states or frames ina single image.
+- Sprites are images that contain multiple states or frames in a single image.
 - It is more efficient to load a sungle sprite once than to load a separate image for each state.
 - We can use the `background-position` property to reposition the image on hover in order to create a rollover.
 
 ## Resources
 
 - [Presentation Slides](https://docs.google.com/presentation/d/1M9YKGyk3ivguZBOrExrywmQYId9lmjrrxqAfgdqd58Y/edit?usp=sharing)
+- [Sprite - Code Example From Video](http://jsfiddle.net/flatiron_school/jc2QR/)
+- [Sprite - Code Example From Text](https://jsfiddle.net/flatiron_school/ymbro7xu/)
+- [CSS Tricks - Sprites What Are They](https://css-tricks.com/css-sprites/)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/fe-sprite-rollovers' title='Sprite Images and Rollovers'>Sprite Images and Rollovers</a> on Learn.co and start learning to code for free.</p>
