@@ -47,7 +47,7 @@ Here we gave the a link element a class of `facebook-icon` and put the text insi
 
 The code above sets the link to display block so we can give it a width and height that matches a tile of our grid 100px x 100px. Then we set its background image to load our sprite. Then to hide the text wihtin out element we set it to indent 100% pushing it outside the width of our element then by setting the overflow to hidden the text disappears. We also set the wrap to no-wrap so there is no danger of the text wrapping below and appearing anywhere inside our element.
 
-<a href="#" onclick="return false;" style="display:block;width:100px;height:100px;background:url(css-sprite-example.png) no-repeat;text-indent: 100%;overflow:hidden;wrap:no-wrap;">Facebook</a>
+<a href="#" onclick="return false;" style="display:block;width:100px;height:100px;background:url(http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/css-sprite-example.png) no-repeat;text-indent: 100%;overflow:hidden;wrap:no-wrap;">Facebook</a>
 
 At this point our image appears in our element. You'll notice that the default positioning for background images is to align the top left corner of the image into the top left corner of our element showing the initial state of our Facebook icon. The rest of the sprite is cropped and out of view.
 
@@ -61,7 +61,7 @@ Now we just need to reposition the sprite on hover,
 
 Here we set the `background-position` property to reposition our background image wihtin out element. The first value is for horizontal shift this we set to 0. The second value is for vertical shift which we want to pull the image upward 100px so we set it to -100px. Positive numbers push the image down and to the right, negative numbers pull the image up and to the left. As mentioned the first value moves the sprite horizontally and the second value moves it vertically. Here is our finished example go ahead and hover over the rollover below,
 
-<a class="facebook-icon" href="#" onclick="return false;" style="display:block;width:100px;height:100px;background:url(css-sprite-example.png) no-repeat;text-indent: 100%;overflow:hidden;wrap:no-wrap;">Facebook</a><style>.facebook-icon{background-position: 0 -100px;}</style>
+<a class="facebook-icon" href="#" onclick="return false;">Facebook</a><style>.facebook-icon{display:block;width:100px;height:100px;background:url(http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/css-sprite-example.png) no-repeat;text-indent: 100%;overflow:hidden;wrap:no-wrap;}.facebook-icon{background-position: 0 -100px;}</style>
 
 ## Summary
 
