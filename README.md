@@ -76,7 +76,7 @@ Here we set the `background-position` property to reposition our background imag
 ## Summary
 
 - Sprites are images that contain multiple states or frames in a single image.
-- It is more efficient to load a sungle sprite once than to load a separate image for each state.
+- It is more efficient to load a single sprite once than to load a separate image for each state.
 - We can use the `background-position` property to reposition the image on hover in order to create a rollover.
 
 ## Resources
